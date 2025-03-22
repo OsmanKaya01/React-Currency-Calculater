@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("./img/background.jpeg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App{
+  padding-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vh;
+  height: 50vh;
+  background-color: rgba(37, 37, 37, 0.927);
+}
+
+.currency{
+  margin-top: 7vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+.doviz{
+  display: flex;
+  flex-direction: row;
+  gap: 1vh;
+}
+
+.doviz input{
+  padding: 1vh;
+  height: 5vh;
+  width: 20vh;
+  border: 1px solid black;
+  border-radius: 1vh;
+}
+
+.doviz select{
+  height: 5vh;
+  width: 10vh;
+  padding: 1vh;
+  border: 1px solid black;
+  border-radius: 1vh;
+  appearance: none;
+  
+}
+
+.currency button{
+  width: 13vh;
+  height: 4vh;
+  background-color: rgba(33, 33, 33, 0.592);
+  border: 1px solid black;
+  border-radius: 1vh;
+  margin: auto;
+}
+
+.doviz input:hover{
+  background-color: rgb(33, 33, 33);
+}
+
+.doviz input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.doviz select:hover{
+  background-color: rgb(33, 33, 33);
+}
+
+.currency button:hover{
+  background-color: rgba(77, 77, 77, 0.592);
+}
